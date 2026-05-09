@@ -8,22 +8,26 @@ function CoreValues() {
         <div className="container">
           <h2 className="text-center text-primary mb-4">Our Core Values</h2>
           <div className="row text-center">
-            <div className="col-md-3">
+            {/* First Core Value Box */}
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
               <h5>Excellence</h5>
               <p>We inspire excellence in academics and character.</p>
             </div>
-            <div className="col-md-3">
+            {/* Second Core Value Box */}
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
               <h5>Discipline</h5>
               <p>We uphold discipline as the foundation of success.</p>
             </div>
-            <div className="col-md-3">
+            {/* Third Core Value Box */}
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
               <h5>Morals</h5>
               <p>
                 We promote strong Islamic morals while welcoming students of all
                 faiths.
               </p>
             </div>
-            <div className="col-md-3">
+            {/* Fourth Core Value Box */}
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
               <h5>Innovation</h5>
               <p>We nurture creative minds ready to lead the future.</p>
             </div>
@@ -42,17 +46,20 @@ function CoreValues() {
         <div className="container">
           <h2 className="text-center text-primary mb-4">Our Achievements</h2>
           <div className="row text-center">
-            <div className="col-md-4 mb-4">
+            {/* First Achievement Box */}
+            <div className="col-12 col-sm-6 col-md-4 mb-4">
               <h1>🏆</h1>
               <h5>98% WAEC Pass Rate</h5>
               <p>Consistent academic excellence year after year.</p>
             </div>
-            <div className="col-md-4 mb-4">
+            {/* Second Achievement Box */}
+            <div className="col-12 col-sm-6 col-md-4 mb-4">
               <h1>🎓</h1>
               <h5>1000+ Alumni</h5>
               <p>Our graduates are thriving in top universities and careers.</p>
             </div>
-            <div className="col-md-4 mb-4">
+            {/* Third Achievement Box */}
+            <div className="col-12 col-sm-6 col-md-4 mb-4">
               <h1>💻</h1>
               <h5>ICT-Driven Learning</h5>
               <p>Modern tools and digital literacy at every level.</p>

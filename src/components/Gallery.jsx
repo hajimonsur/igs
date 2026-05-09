@@ -9,7 +9,7 @@ function Gallery() {
         </h2>
         <div className="row g-3">
           {/* Image 1 */}
-          <div className="col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <img
               src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60"
               alt="Classroom"
@@ -18,7 +18,7 @@ function Gallery() {
           </div>
 
           {/* Image 2 */}
-          <div className="col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <img
               src="graduating students.jpeg"
               alt="graduating Students"
@@ -27,7 +27,7 @@ function Gallery() {
           </div>
 
           {/* Image 3 */}
-          <div className="col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <img
               src="extracurricular.jpeg"
               alt="extracurricular activities"
@@ -36,7 +36,7 @@ function Gallery() {
           </div>
 
           {/* Image 4 */}
-          <div className="col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <img
               src="libary.jpeg"
               alt="Library"
@@ -45,7 +45,7 @@ function Gallery() {
           </div>
 
           {/* Image 5 */}
-          <div className="col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <img
               src="clinic.jpeg"
               alt="School Clinic"
@@ -54,7 +54,7 @@ function Gallery() {
           </div>
 
           {/* Video */}
-          <div className="col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <div
               className="position-relative"
               style={{ height: "250px", overflow: "hidden" }}
@@ -65,7 +65,11 @@ function Gallery() {
                 muted
                 loop
                 playsInline
-                style={{ width: "100%", height: "120%", objectFit: "cover" }}
+                style={{
+                  width: "100%",
+                  height: "100%", // Adjust height to fit container properly
+                  objectFit: "cover", // Ensure the video covers the area without distortion
+                }}
                 className="rounded shadow"
               />
             </div>
