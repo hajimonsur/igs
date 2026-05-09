@@ -1,0 +1,22 @@
+
+
+function Navbar() {
+  return (
+    <nav className="navbar navbar-dark bg-primary py-2">
+      <div className="container">
+        <a className="navbar-brand m-0 p-0" href="/">
+          <img
+            src="igslogo.jpeg"
+            alt="Iponri Grammar School Logo"
+            width="200"
+            height="90"
+            className="d-inline-block align-middle"
+            style={{ objectFit: 'contain' }}
+          />
+        </a>
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;
