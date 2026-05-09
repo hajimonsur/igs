@@ -51,7 +51,7 @@ function HeroSection() {
           className="mt-4 mt-lg-0 d-none d-lg-block" // Image hidden on mobile
         >
           <img
-            src="../../public/NEWIGSLOGO.png"
+            src="NEWIGSLOGO.png"
             alt="School Students"
             className="img-fluid"
             style={{
