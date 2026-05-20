@@ -27,3 +27,27 @@ html, body {
   z-index: -1;
   pointer-events: none;
 } */
+
+body {
+  margin: 0;
+  padding: 0;
+  background:
+      linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+      url('/NEWIGSLOGO.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('/NEWIGSLOGO.png');
+  /* background-size: 400px;
+  /* control size */
+  /* background-repeat: no-repeat;
+  background-position: center; */
+/* }   */

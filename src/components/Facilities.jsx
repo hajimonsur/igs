@@ -10,7 +10,8 @@ import {
 
 function Facilities() {
   return (
-    <section className="py-5 bg-white">
+    <section className="py-5 ">
+      {/* bg-white */}
       <div className="container text-center">
         <h2 className="text-primary fw-bold mb-4">Our Facilities</h2>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">

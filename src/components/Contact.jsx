@@ -2,13 +2,18 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section className="py-5 bg-primary text-white" id="contact">
+    <section className="py-5  bg-primary text-white" id="contact">
+      {" "}
       <div className="container">
-        <h2 className="text-center text-uppercase mb-4 display-5 fw-bold">Contact Us</h2>
+        <h2 className="text-center text-uppercase mb-4 display-5 fw-bold">
+          Contact Us
+        </h2>
         <div className="row justify-content-center">
           <div className="col-md-8 col-12">
             <div className="">
-              <h4 className="text-center mb-3 fw-semibold text-light">Get in Touch</h4>
+              <h4 className="text-center mb-3 fw-semibold text-light">
+                Get in Touch
+              </h4>
               <p className="text-center text-light mb-4 fs-5">
                 We'd love to hear from you! Reach out to us anytime.
               </p>
@@ -32,7 +37,7 @@ function Contact() {
                     href="mailto:info@IponriGrammarSchool.edu.ng"
                     className="text-white text-decoration-none"
                   >
-                    info@IponriGrammarSchool.edu.ng
+                  iponrigrammarschool03@gmail.com
                   </a>
                 </div>
 

@@ -4,7 +4,8 @@ function CoreValues() {
   return (
     <>
       {/* Core Values Section */}
-      <section className="py-5 bg-white">
+      <section className="py-5 ">
+        {/* bg-white */}
         <div className="container">
           <h2 className="text-center text-primary mb-4">Our Core Values</h2>
           <div className="row text-center">
@@ -42,7 +43,8 @@ function CoreValues() {
       </section>
 
       {/* Achievements / Quick Stats Section */}
-      <section className="py-5 bg-light">
+      <section className="py-5 ">
+        {/* bg-light */}
         <div className="container">
           <h2 className="text-center text-primary mb-4">Our Achievements</h2>
           <div className="row text-center">

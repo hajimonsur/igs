@@ -7,7 +7,8 @@ function HeroSection() {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <header className="bg-light py-5" ref={ref}>
+    <header className="  py-5" ref={ref}>
+      {/* bg-light */}
       <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
         {/* Left Side Content */}
         <motion.div

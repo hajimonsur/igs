@@ -2,7 +2,9 @@ import React from "react";
 
 function Gallery() {
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 ">
+      {" "}
+      {/* bg-light */}
       <div className="container">
         <h2 className="text-center text-primary mb-4">
           Our School in Pictures
