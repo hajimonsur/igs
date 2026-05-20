@@ -34,10 +34,10 @@ function CoreValues() {
             </div>
           </div>
           <div className="text-center mt-4">
-            <small className="text-muted">
+            <h6 className="text-muted">
               Iponri Grammar School is a Muslim school that welcomes students
               from all religious backgrounds.
-            </small>
+            </h6>
           </div>
         </div>
       </section>

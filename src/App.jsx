@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app-background">
+    <div >
        {showModal && <EnrollModal onClose={() => setShowModal(false)} />}
       <Navbar />
       <Hero />
